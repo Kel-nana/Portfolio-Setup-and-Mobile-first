@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:wght@300;400;500;700;900&display=swap");
 
 body {
   position: fixed;
@@ -50,6 +50,7 @@ body {
   width: 375px;
   border: 1px solid red;
 } */
+
 /* =====LOGO-MENU==== */
 div.logo-menu {
   position: fixed;
