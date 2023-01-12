@@ -4,7 +4,7 @@ body {
   position: fixed;
   margin: 0;
   width: 375px;
-  height: 718px;
+  height: 100vh;
   border: 1px solid lightgrey;
   align-items: center;
   left: 34%;
@@ -12,7 +12,7 @@ body {
   overflow: hidden;
 }
 
-nav {
+/* nav {
   position: fixed;
   display: flex;
   justify-content: space-between;
@@ -43,14 +43,14 @@ nav {
   margin-right: 16px;
   border: 1px solid black;
   height: 16px;
-}
+} */
 
-.container {
+/* .container {
   height: 672px;
   width: 375px;
   border: 1px solid red;
-}
-
+} */
+/* =====LOGO-MENU==== */
 div.logo-menu {
   position: fixed;
   display: flex;
@@ -59,7 +59,7 @@ div.logo-menu {
   width: 375px;
   height: 46px;
   border: 1px solid yellow;
-  top: 46px;
+  top: 0;
 }
 
 p.logo {
@@ -78,14 +78,16 @@ p.logo {
   margin-top: 8px;
 }
 
+/* =====MAIN BODY======= */
+
 .main-container {
   position: fixed;
-  margin-top: 92px;
+  margin-top: 46px;
   width: 375px;
-  height: 626px;
-  background-image: url("./images/header-shapes.png");
+  height: 718px;
+  background-image: url("./images/header-shapes\ mobile.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 375px 718px;
 }
 
 .title {
@@ -117,6 +119,8 @@ p.logo {
   line-height: 24px;
 }
 
+/* =====FOOTER==== */
+
 .connect {
   display: flex;
   width: 119px;
@@ -128,4 +132,28 @@ p.logo {
   color: #7f8cff;
   margin-left: 24px;
   margin-top: 20px;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 190px;
+  height: 30px;
+  margin-left: 24px;
+  margin-top: 15px;
+  border: 1px solid purple;
+}
+
+.fa-twitter,
+.fa-linkedin-in,
+.fa-m,
+.fa-github {
+  font-size: 24px;
+  color: #505f79;
+}
+
+.fa-hand-peace {
+  font-size: 22px;
+  color: #505f79;
+  border: #505f79;
 }
