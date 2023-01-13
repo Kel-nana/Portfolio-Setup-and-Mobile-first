@@ -64,7 +64,7 @@ div.logo-menu {
 
 p.logo {
   margin-left: 12px;
-  font-family: "Poppins";
+  font-family: "Poppins", Arial, sans-serif;
   font-weight: 700;
   font-size: 18px;
   color: #6070ff;
@@ -95,7 +95,7 @@ p.logo {
   align-items: center;
   width: 327px;
   height: 150px;
-  font-family: "Poppins";
+  font-family: "Poppins", Arial, sans-serif;
   font-weight: 700;
   font-size: 28px;
   color: #172b4d;
@@ -108,7 +108,7 @@ p.logo {
   align-items: center;
   width: 327px;
   height: 146px;
-  font-family: "Poppins";
+  font-family: "Poppins", Arial, sans-serif;
   font-weight: 400;
   font-size: 16px;
   color: #172b4d;
@@ -123,7 +123,7 @@ p.logo {
   display: flex;
   width: 119px;
   height: 24px;
-  font-family: "Poppins";
+  font-family: "Poppins", Arial, sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
