@@ -1,4 +1,4 @@
-<a name="readme-top"></a>
+<!-- <a name="readme-top"></a>
 
 <!--
 HOW TO USE:
@@ -175,4 +175,4 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Microverse documentation and Myself ⭐️
+- Microverse documentation and Myself ⭐️ -->
