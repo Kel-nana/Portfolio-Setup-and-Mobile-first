@@ -1,15 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:wght@300;400;500;700;900&display=swap");
 
 body {
-  position: fixed;
   margin: 0;
-  width: 375px;
-  height: 100vh;
+  width: 338px;
+  height: 675px;
   border: 1px solid lightgrey;
-  align-items: center;
-  left: 34%;
-  right: 66%;
-  overflow: hidden;
+  overscroll-behavior-y: scroll;
 }
 
 /* nav {
@@ -57,7 +53,7 @@ div.logo-menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 375px;
+  width: 338px;
   height: 46px;
   top: 0;
 }
@@ -83,43 +79,44 @@ p.logo {
 .main-container {
   position: fixed;
   margin-top: 46px;
-  width: 375px;
-  height: 718px;
-  background-image: url("./images/header-shapes\ mobile.png");
+  width: 338px;
+  height: 675px;
+  background-image: url("./images/header-shapes\ mobile.svg");
   background-repeat: no-repeat;
-  background-size: 375px 672px;
+  background-size: 338px 538px;
 }
 
 .title {
   display: flex;
   align-items: center;
-  width: 327px;
+  width: 300px;
   height: 150px;
   font-family: "Poppins", Arial, sans-serif;
   font-weight: 700;
-  font-size: 28px;
+  font-size: 25px;
   color: #172b4d;
   margin-left: 24px;
   margin-top: 114px;
+  line-height: 52px;
 }
 
 .titleText {
   display: flex;
   align-items: center;
-  width: 327px;
-  height: 146px;
+  width: 300px;
+  height: 113px;
   font-family: "Poppins", Arial, sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 12px;
   color: #172b4d;
   margin-left: 24px;
-  margin-top: 26px;
-  line-height: 24px;
+  margin-top: 6px;
+  line-height: 20px;
 }
 
 /* =====FOOTER==== */
 
-.connect {
+.connect p {
   display: flex;
   width: 119px;
   height: 24px;
@@ -129,28 +126,21 @@ p.logo {
   line-height: 24px;
   color: #7f8cff;
   margin-left: 24px;
-  margin-top: 20px;
+  margin-top: 6px;
 }
 
 .footer-icons {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
   width: 190px;
   height: 30px;
   margin-left: 24px;
-  margin-top: 15px;
+  margin-top: 6px;
 }
 
-.fa-twitter,
-.fa-linkedin-in,
-.fa-m,
-.fa-github {
-  font-size: 24px;
+.footer-icons img {
+  width: 25px;
+  height: 25px;
   color: #505f79;
-}
-
-.fa-hand-peace {
-  font-size: 22px;
-  color: #505f79;
-  border: #505f79;
 }
