@@ -30,7 +30,7 @@ After you're finished please remove all the comments and instructions!
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Hello_Microverse_Project</b></h3>
+  <h3><b>Portfolio Setup and Mobile first </b></h3>
 
 </div>
 
@@ -54,9 +54,9 @@ After you're finished please remove all the comments and instructions!
 - [📝 License](#license)
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Hello_Microverse_Project] <a name="about-project"></a>
+# 📖 [Portfolio Setup and Mobile first Project] <a name="about-project"></a>
 
-Hello_Microverse_Project is a Its a project meant to master my skills in version control, GitHub flow, pull requests in GitHub.
+Portfolio Setup and Mobile first Project is a Its a project meant to master my skills in version control, GitHub flow, pull requests in GitHub.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -175,4 +175,4 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Microverse documentation and Myself ⭐️
+- Microverse documentation, teammates, reviewers and myself ⭐️
