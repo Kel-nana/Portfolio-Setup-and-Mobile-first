@@ -100,7 +100,7 @@ header.logo-menu {
   line-height: 52px;
 }
 
-.titleText p {
+/* .titleText p {
   display: flex;
   align-items: center;
   width: 337px;
@@ -112,7 +112,7 @@ header.logo-menu {
   margin-left: 24px;
   margin-top: 12px;
   line-height: 24px;
-}
+} */
 
 /* =====FOOTER==== */
 
@@ -139,8 +139,12 @@ header.logo-menu {
   margin-top: 12px;
 }
 
-.footer-icons a {
+.footer-icons li a {
   width: 25px;
   height: 25px;
   color: #505f79;
+}
+
+li {
+  list-style: none;
 }
